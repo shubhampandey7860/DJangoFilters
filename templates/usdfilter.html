@@ -1,0 +1,17 @@
+{% load usd %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user defined filters</title>
+</head>
+<body>
+    <center>
+        {{data|swap}}<br>
+        {{data|count:'ha'}}<br>
+        {{data|remove:'ha'}}<br>
+    </center>
+</body>
+</html>
